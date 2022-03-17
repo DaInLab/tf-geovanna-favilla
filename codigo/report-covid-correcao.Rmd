@@ -1,0 +1,45 @@
+---
+title: "Relatório - Covid"
+author: "Geovanna Favilla"
+date: "14/03/2022"
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1 - Introdução
+Resultado da análise estatística básica sobre os efeitos da pandemia do novo corona vírus. Os dados foram coletados a partir do sistema público de saúde de Bauru - SP
+
+## 2 - Análise Inicial
+
+Para analisar a frequencia em que cada grupo etário era acometido pela nova doença, um histograma foi gerado. Assim, é possível comunicar visualmente com maior facilidade os grupos mais afetados na região.
+
+![<b>Histograma - faixa etárias</b>](/Users/jpalbino/Library/Mobile Documents/com~apple~CloudDocs/GitHub/iaed_2022_trabalhos/tf-geovanna-favilla/graficos/idade-fig1.png)
+
+
+
+É possível também analisar a média - em dias - de hospitalização, separando os dados entre origem pública e privada:
+
+
+![<b>Gráfico 01 - Média de internação</b>](/Users/jpalbino/Library/Mobile Documents/com~apple~CloudDocs/GitHub/iaed_2022_trabalhos/tf-geovanna-favilla/graficos/internacao-fig1.png)
+
+É possível analisar, ainda que parcialmente, o número de óbitos ocorridos durante o período amostrado:
+
+
+![<b>Gráfico 02 - Óbitos</b>](/Users/jpalbino/Library/Mobile Documents/com~apple~CloudDocs/GitHub/iaed_2022_trabalhos/tf-geovanna-favilla/graficos/obitos-vacinas.png)
+
+Outro aspecto importante (e muito discutido) na análise do background de cada paciente são as comorbidades pré-existentes. A partir dos dados fornecidos, é possível visualizar o panorama básico da região da cidade de Bauru no que toca a esse assunto:
+
+
+![<b>Gráfico 03 - Comorbidades Associadas</b>](/Users/jpalbino/Library/Mobile Documents/com~apple~CloudDocs/GitHub/iaed_2022_trabalhos/tf-geovanna-favilla/graficos/comorbidade-fig1.png)
+
+
+Por fim, uma análise superficial da evolução de óbitos durante a parte mais crítica da pandemia. Podemos notar a acentuação e o crescimento da curva de óbitos durante o referido período:
+
+
+![<b>Gráfico 04 - Variação de óbitos durante período crítico</b>](/Users/jpalbino/Library/Mobile Documents/com~apple~CloudDocs/GitHub/iaed_2022_trabalhos/tf-geovanna-favilla/graficos/varperiod-fig1.png)
